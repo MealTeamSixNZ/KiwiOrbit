@@ -1,0 +1,35 @@
+.topRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 100vh;
+  	align-items: center;
+}
+
+.icon {
+	width: 240px;
+	height: 240px;
+}
+
+.icon > a {
+	display: block;
+	background-size: contain;
+	height: 100%;
+	width: 100%;
+}
+
+.icon:hover {
+	transform: scale(1.2);
+}
+
+.email {
+	background-image: url("icons8-gmail.svg");
+}
+
+.github {
+	background-image: url("icons8-github.svg");
+}
+
+.website {
+	background-image: url("kiwiorbit.jpg");
+}
