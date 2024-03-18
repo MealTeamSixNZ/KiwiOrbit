@@ -33,11 +33,11 @@ body {
 }
 
 .email {
-	background-image: url("icons8-gmail.svg");
+	background-image: url("gmail.svg");
 }
 
 .github {
-	background-image: url("icons8-github.svg");
+	background-image: url("github.svg");
 }
 
 .website {
