@@ -10,7 +10,7 @@ class Hangman {
         const randomIndex = Math.floor(Math.random()*dictionary.length)
         this.secretWord = dictionary[randomIndex].toLowerCase()
         this.guesses = []
-        this.lives = 20
+        this.lives = 10
         }
 
     guess(letter) {
